@@ -50,3 +50,28 @@ body{
 .contact{
     line-height: 1.1rem;
 }
+
+.bsa{
+    margin-top: 10px;
+    font-size: 0.9em;
+    letter-spacing: 0.1em;
+    border: 1px solid #555;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: rgba(100, 100, 100, 0.5);
+}
+
+.bsa a{
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+
+.bsa a:link, .bsa a:visited{
+    color: #999;
+    
+}
+
+.bsa a:hover, .bsa:active{
+    color: #EAD017;
+}
